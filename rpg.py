@@ -16,8 +16,7 @@ from time import perf_counter
 import rpg_str as rpgstr
 import threading
 import math
-bot = Bot(token = '1838898111:AAEkKPly6ZFvUV2IPHKZrzEsBKFScA8NjeQ')
-#bot = Bot(token = '1793720846:AAEt9Kv0p51_d8zwXLj5Vo7Vhgnt4SDjBNE')
+bot = Bot(token = '1833898111:AAEkKPly6ZFvUV2IPHKZrzEsBKFScA8NjeQ')
 dp = Dispatcher(bot)
 
 connect = sqlite3.connect('rpg.db',check_same_thread=False, timeout = 10)
